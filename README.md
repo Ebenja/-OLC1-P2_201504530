@@ -4,3 +4,5 @@
 
 #Traductor Javascript -> JS y Python
 * Se trabajo una gramatica recursiva por la izquierda para los diferentes metodos implementados dentro para traducir
+
+#Gramatica utilizada
