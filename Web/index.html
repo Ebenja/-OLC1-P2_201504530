@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Traductor Proyecto 2 OLC</title>
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"> Traductor Proyecto 2 OLC - 201504530 </a>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <hr>
+    
+  
+    <div class="card shadow mb-4">
+          <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Analizador</h6>
+              </div>
+          <div class="card-body">
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Ingrese su archivo</label>
+                  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="30"></textarea>
+                  </div>
+  
+                  <form class="user"   >
+  
+                      <!--
+                      <div class="form-group">
+                          <input type="text" class="form-control form-control-user" 
+                          id="producto"  placeholder="Nombre Categoria" required
+                          formControlName="categoria" >
+                      </div>-->
+                  
+                      <div class="form-group row ">
+                          
+                          <button  class="btn btn-warning btn-user btn-block col-sm-6 mb-3 mb-sm-0" (click) = "cancelar()" >
+                              Atras
+                          </button>
+          
+                          <button  class="btn btn-primary btn-user btn-block col-sm-6 mb-3 mb-sm-0" onclick="Traducir()" (click) = "consultar()" >
+                              Analizar
+                          </button>
+                  
+                      </div>
+                   </form>
+          </div>
+      </div>
+  
+      <div class="row">
+          <!-- Area Chart -->
+          <div class="col-lg-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <!-- Area Chart -->
+            <div class="col-lg-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                <!-- 
+
+    <form>
+        <fieldset>
+            <legend>Entrada</legend>
+            <div class="form-group">
+                <textarea class="form-control" id="txtin" rows="3"></textarea>
+            </div>
+            <legend>Salida</legend>
+            <div class="form-group">
+                <textarea class="form-control" id="txtout" rows="3"></textarea>
+            </div>
+        </fieldset>
+    </form>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+-->
+
+  
+  
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
